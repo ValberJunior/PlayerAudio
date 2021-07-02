@@ -16,6 +16,7 @@ let forward= document.getElementById('next10');
 let title = document.getElementById('title');
 let artist = document.getElementById('artist');
 let display = document.getElementById('display');
+let minutes = document.getElementById('minutes');
 
 //my playlist
 
@@ -165,30 +166,37 @@ function changeVol(){
 
 //change the currentTime with the input range.
 
-time.addEventListener('input', changeCurrentTime);
-let value;
+time.addEventListener('input',function(){
+    audio.currentTime = time.value;
+})
+
 
 function changeCurrentTime(){
-    value = time.value;
-    audio.currentTime = value;
-    
+
+
+    let total = audio.duration;
+
+    let currentTime = 0 + audio.currentTime ;
+
+
     time.max = audio.duration;
+    time.value = audio.currentTime;
+   
+    let min = Math.floor(audio.currentTime / 60)
+    let displayMin = (min < 10 ? '0' : '') + min
+    let sec = Math.round(audio.currentTime % 60)
+    let displaySec = (sec < 10 ? '0' : '') + sec
+    minutes.innerHTML = `${displayMin} : ${displaySec}`
+
+    if (currentTime == total){
+        nextSong();
+    }
+
 }
 
+setInterval(changeCurrentTime, 1000);
 
 
-//change the position of range
-
-let timer = setInterval(changeRange , 1000);
-    
-    function changeRange(){
-   
-    let position = audio.currentTime * (100/audio.duration);
-
-        time.value = position;
-
-    }
-    
 // Display time and volume disable/enable
 
 display.addEventListener('mouseover', function(){
