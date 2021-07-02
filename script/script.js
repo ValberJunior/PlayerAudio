@@ -171,13 +171,8 @@ time.addEventListener('input',function(){
 })
 
 
-function changeCurrentTime(){
-
-
-    let total = audio.duration;
-
-    let currentTime = 0 + audio.currentTime ;
-
+// Change the minutes
+function changeTime(){
 
     time.max = audio.duration;
     time.value = audio.currentTime;
@@ -188,13 +183,24 @@ function changeCurrentTime(){
     let displaySec = (sec < 10 ? '0' : '') + sec
     minutes.innerHTML = `${displayMin} : ${displaySec}`
 
-    if (currentTime == total){
-        nextSong();
-    }
+    changeMusic();
 
 }
 
-setInterval(changeCurrentTime, 1000);
+setInterval(changeTime, 1000);
+
+
+// Change music
+
+function changeMusic(){
+
+let total = audio.duration;
+let currentTime = audio.currentTime ;
+
+if (currentTime == total){
+    nextSong();
+}
+}
 
 
 // Display time and volume disable/enable
