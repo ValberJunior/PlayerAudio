@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"enjoy>My Rock Playlist</title>
+    <link href='./assets/icon.png' rel='icon' type='image/png'>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!--Internal Css-->
+    <style rel='stylesheet' type='text/css'>
+    body{
+        width: 100vh;
+        font-family: 'Poppins', sans-serif;
+        background-color:black;
+        background-image:url('./assets/background.png');
+        background-size: cover;
+        background-attachment: fixed;
+
+        display:flex;
+        align-items: center;
+        align-content:center;
+    }
+    .container{
+        width:50%;
+        max-width: 400px;;
+        background-color:#ff000000;
+        padding: 15px;
+
+        position:absolute;
+        top:40%;
+        left:50%;
+        transform:translate(-50%, -50%);
+    }
+    #title{
+        color:#FFFFFF;
+        font-weight: bold;
+        font-size: 60px;
+        padding:15px;
+        padding-bottom:10%;
+
+        border-bottom:3px solid #308fdd;
+
+        cursor: grab;
+    }
+    #subtitle{
+        color:#b8b5b5;
+        margin-bottom:10%;
+    }
+
+    #enjoy{
+        padding:15px;
+        padding-left:30px;
+        padding-right:30px;
+        font-size:17px;
+
+        font-weight: bold;
+
+        border-radius:10px;
+
+        background-color:#308fdd;;
+
+        position:absolute;
+        left:30%;
+
+        border: 1.5px solid white;
+
+        cursor: pointer;
+
+    }
+
+    @media screen and (max-width: 900px){
+        body{
+            max-width: 100%;
+        }
+        #title{
+        font-size: 7vw;
+            
+    }
+    #subtitle{
+        font-size:3vw;
+    }
+
+    #enjoy{
+        padding:3%;
+        padding-left:5%;
+        padding-right:5%;
+        font-size:2vw;
+    }
+
+
+    
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <div class='container'>
+    <h1 id='title'>Listen to my Playlist</h1>
+
+    <h3 id='subtitle'>
+        Some classic rock 
+        songs in cover and official 
+        versions...
+    </h3>
+
+    <a href='player.html'><button id='enjoy'>Enjow Now!</button></a>
+
+    </div>
+
+
+<!--My Script-->
+<script>
+     let title = document.getElementById('title');
+    title.addEventListener('mouseover',function(){
+        title.style.opacity = '0.7'
+    })
+    title.addEventListener('mouseout', function(){
+        title.style.opacity = '1'
+    })
+
+
+    let enjoy = document.getElementById('enjoy');
+    enjoy.addEventListener('mouseover',function(){
+        enjoy.style.backgroundColor = '#000000'
+        enjoy.style.color= '#308fdd';
+        enjoy.style.border='#000000'
+    })
+    enjoy.addEventListener('mouseout', function(){
+        enjoy.style.backgroundColor = '#308fdd'
+        enjoy.style.color= '#000000';
+        enjoy.style.border='white'
+    })
+</script>    
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen To My Playlist</title>
+    <link href='./assets/icon.png' rel='icon' type='image/png'>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+
+    <header><h2>My Rock Playlist</h2></header>
+
+
+    <!--player-->
+
+    <div class='container'>
+
+        <!-- Album Art-->
+        <img src='./assets/art/default.png' id='art'>
+        
+        <!-- time and Volume -->
+        <div class='time-and-volume' id='display'>
+            <input type='range' min='0' max='' id='time' value='0'>
+            <img src='./assets/icon/vol.png' id='iconVol'> <input type='range' min='0' max='100' id='volume'>  
+        </div>
+
+        <!--Audio-->
+        <audio id='audio'>
+            <source src='' type='audio/mpeg' id='audio-source'>
+        </audio>
+
+        <!--Controls-->
+        <div class='controls'>
+            <img src='./assets/icon/Back.png' class='buttons' id='back'>
+            <img src='./assets/icon/Back10.png' class='buttons' id='back10'>
+            <img src='./assets/icon/loop.png' class='buttons' id='loop'> 
+            <img src='./assets/icon/Play.png' class='buttons' id='play'>
+            <img src='./assets/icon/Mute.png' class='buttons' id='mutedSong'>
+            <img src='./assets/icon/Next10.png' class='buttons' id='next10'>
+            <img src='./assets/icon/Next.png' class='buttons' id='next'>
+        </div>
+
+        <!--Details-->
+
+        <div class='details'>
+
+        <p id='title'>Title</p>
+        <p id='artist'>Artist</p>
+
+        </div>
+
+      
+    </div>
+
+    <footer>
+        <!--home-->
+        <a href='./index.html' id='home'>HOME</a>
+        <ul>
+           <li><a href="https://www.linkedin.com/in/valber-junior-238217b4/"><img src="./assets/socialmedia/linkedin.png" type="image/png" alt="logo linekdin" class="icone"></a></li>
+           <li><a href="https://github.com/ValberJunior"><img src="./assets/socialmedia/github.png" type="image/png" alt="logo github" class="icone"></a></li>
+        </ul>
+    </footer>
+<!--My Script File-->
+<script src='script/script.js'> </script>    
+</body>
+</html>

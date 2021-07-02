@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+
+    background-image: url('../assets/backgroundplayer.png');
+    background-size: cover;
+
+}
+
+
+/* Header*/
+
+header{
+    width:100%;
+    height:100px;
+    background-color: #308fddfb;
+    opacity: 0.9;
+
+}
+h2{
+    color:white;
+    font-weight: bold;
+    font-size:35px;
+
+    position:absolute;
+    top:5%;
+    left:5%;
+
+}
+
+/*Principal Div*/
+.container{
+    width:400px;
+    background-color:#80808000;
+
+    margin:auto;
+
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1%;
+
+    margin-top:3%;
+    margin-bottom:3%;
+
+    position:relative;
+
+}
+
+/*Art*/
+#art{
+    max-width:400px;
+    height: 400px;
+
+    cursor: pointer;
+}
+
+/*Time & Volume*/
+.time-and-volume{
+    background-color:#000000b9;
+    width:400px;
+    overflow: hidden;
+
+    padding:2%;
+
+    display:flex;
+    justify-content: center;
+    
+
+    position:absolute;
+    top:58%;
+    left:52%;
+    transform: translate(-50%, -50%);
+}
+#iconVol{
+    width:25px;
+    cursor:pointer;
+
+}
+#time{
+    width:60%;
+    margin-left:2%;
+
+    cursor:pointer;
+}
+#volume{
+    width: 20%;
+    cursor:pointer;
+}
+
+/*Controls*/
+.controls{
+    background-color:#3f3f3f5d;
+    width:100%;
+    height: 80px;
+    border-radius:15px;
+    padding:1%;
+    
+    margin-top:2%;
+    margin-left: 3%;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/*Buttons*/
+.buttons{
+    width: 45px;
+
+    cursor:pointer;
+    margin-left:0.7%;
+    margin-right:0.7%;
+}
+
+/*Details*/
+.details{
+    padding:5%;
+    padding-top:8%;
+}
+#title, #artist{
+    color:white;
+    font-weight: bold;
+    padding-bottom:5%;
+}
+
+/*Footer*/
+
+footer{
+    max-width: 100%;
+    height:300px;
+    background-color:#3334351a;
+
+    position:relative;
+}
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+li{
+   display:inline-block;
+}
+
+/*Social Media*/
+.icone{
+    width: 50px;
+    opacity: 0.8;
+
+
+}
+
+/*home*/
+#home
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    padding: 3%;
+   
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size:14px;
+}
+
+#home:hover
+{
+  
+    
+    color:#057083;
+   
+   
+}
+
+/*Medias Querie -----------------------------------------------*/
+
+@media screen and (max-width: 900px){
+
+ h2{
+
+    font-size:25px;
+
+}
+
+
+.controls{
+  
+    margin-left: 1.5%;
+    
+
+}
+
+}
+
+@media screen and (max-width: 500px){
+/*Principal Div*/
+.container{
+    width:400px;
+    background-color:#80808000;
+
+    margin:auto;
+
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1%;
+
+    margin-top:3%;
+    margin-bottom:3%;
+
+    position:relative;
+
+}
+
+/*Art*/
+#art{
+    max-width:300px;
+    height: 300px;
+
+    cursor: pointer;
+}
+
+/*Time & Volume*/
+.time-and-volume{
+    background-color:#000000b9;
+    max-width:290px;
+    overflow: hidden;
+
+    padding:2%;
+
+    display:flex;
+    justify-content: center;
+    
+
+    position:absolute;
+    top:51%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.controls{
+    background-color:#3f3f3f5d;
+    width:290px;
+    height: 60px;
+    border-radius:15px;
+    padding:1%;
+    
+    margin-top:2%;
+    margin-left: 12%;
+
+
+}
+
+
+.buttons{
+    width: 30px;
+
+}
+
+
+#title, #artist{
+
+    font-size:14px;
+}
+
+
+
+
+.icone{
+    width: 35px;
+
+}
+
+#home
+{
+    padding: 5%;
+    font-size:12px;
+}
+}
+
+@media screen and (max-width: 400px){
+    body{
+        width: 400px;
+
+    }
+
+    header{
+      
+        background-color:#308fddfb;
+        border: 2px solid black;
+    
+    
+    }
+    h2{
+        color:white;
+        font-weight: bold;
+        font-size:18px;
+        padding:1%;
+    
+        position:static;
+        top:0%;
+        left:0%;
+
+        margin:auto;
+
+      
+    
+    }
+    
+    /*Principal Div*/
+    .container{
+        width:200px;
+        background-color:#80808000;
+    
+        margin:auto;
+    
+        box-sizing: border-box;
+        text-align: center;
+        padding: 1%;
+    
+        margin-top:10%;
+        margin-bottom:3%;
+    
+        position:relative;
+    
+    }
+    
+    /*Art*/
+    #art{
+        max-width:200px;
+        height: 200px;
+    
+    }
+    
+    /*Time & Volume*/
+    .time-and-volume{
+        
+        width:200px;
+        overflow: hidden;
+    
+        position:absolute;
+        top:50%;
+        left:52%;
+        transform: translate(-50%, -50%);
+    }
+    #iconVol{
+        width:15px;
+        cursor:pointer;
+    
+    }
+    
+    /*Controls*/
+    .controls{
+    
+        width:100%;
+        height: 50px;
+        margin-left:1.7%;
+    
+    }
+    
+    /*Buttons*/
+    .buttons{
+        width: 25px;
+
+    }
+    
+    /*Details*/
+
+    #title, #artist{
+        color:white;
+        font-size:12px;
+        padding-bottom:10%;
+    }
+    
+    /*Footer*/
+    footer{
+        background-color:#8080801f;
+        margin-top:20%;
+    }
+
+    /*Social Media*/
+    .icone{
+        width: 30px;
+        opacity: 0.8;
+    
+    
+    }
+    
+    /*home*/
+    #home
+    {
+        padding-top:15%;
+        font-size:10px;
+    }
+    
+}
