@@ -61,7 +61,7 @@ h2{
 /*Time & Volume*/
 .time-and-volume{
     background-color:#000000b9;
-    width:400px;
+    width: 95%;
     overflow: hidden;
 
     padding:2%;
@@ -72,19 +72,28 @@ h2{
 
     position:absolute;
     top:58%;
-    left:52%;
+    left:53%;
     transform: translate(-50%, -50%);
 }
 #iconVol{
     width:25px;
     cursor:pointer;
+    margin-left:5%;
 
 }
 #time{
-    width:60%;
-    margin-left:2%;
+    width:50%;
+    margin-left:1%;
 
     cursor:pointer;
+}
+#minutes{
+    font-weight: bold;
+    color:white;
+    font-size:10px;
+    margin-top:1%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
 }
 #volume{
     width: 20%;
