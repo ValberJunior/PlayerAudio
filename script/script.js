@@ -29,7 +29,7 @@ let songs = [
     {
         image: '../assets/art/PearJam.PNG',
         name: 'Even Flow (Official Version)',
-        singer: 'Pear Jam',
+        singer: 'Pearl Jam',
         file: '../assets/musics/EvenFlow.mp3'
     },
     {
