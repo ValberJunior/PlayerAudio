@@ -1,3 +1,4 @@
+![Listen to my playlist](https://user-images.githubusercontent.com/84424883/124326104-466db080-db5c-11eb-81aa-3e7e6c743fd7.png)
 # PlayerAudio
 
 ## Projeto para o módulo de HTML sobre introdução de aúdio, #ProgramadorBR.
