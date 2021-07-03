@@ -2,7 +2,6 @@
 
 https://user-images.githubusercontent.com/84424883/124327304-39ea5780-db5e-11eb-9a8c-1b77c522ef78.mp4
 
-![Listen to my playlist](https://user-images.githubusercontent.com/84424883/124326104-466db080-db5c-11eb-81aa-3e7e6c743fd7.png)
 # PlayerAudio
 
 ## Projeto para o módulo de HTML sobre introdução de aúdio, #ProgramadorBR.
@@ -14,6 +13,11 @@ https://user-images.githubusercontent.com/84424883/124327304-39ea5780-db5e-11eb-
 - Javascript;
 
 Criei um player básico com 6 músicas de minha preferência, usando Javascript em seu desenvolvimento.
+
+![arte](https://user-images.githubusercontent.com/84424883/124338248-27334b00-db7d-11eb-943e-5df454dfc4c4.png)
+
+![arte2](https://user-images.githubusercontent.com/84424883/124338315-83966a80-db7d-11eb-976f-62cda62ff083.png)
+
 
 💻🚀✔  Etapas:
 
