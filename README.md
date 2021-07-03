@@ -34,9 +34,9 @@ Criei um player básico com 6 músicas de minha preferência, usando Javascript 
 
 Playlist
 
-1- Talk Dirty To me - Poison;
-2- Even Flow - Pearl Jam;
-3- Cult Of Personality -Living Colour;
-4- Sweet Child O' Mine - Guns N Roses;
-5- Zephyr Song - Red Hot Chili Peppers;
-6- Rock you like a Hurricane  - Scorpions;
+1- Talk Dirty To me - Poison;<br>
+2- Even Flow - Pearl Jam;<br>
+3- Cult Of Personality -Living Colour;<br>
+4- Sweet Child O' Mine - Guns N Roses;<br>
+5- Zephyr Song - Red Hot Chili Peppers;<br>
+6- Rock you like a Hurricane  - Scorpions;<br>
