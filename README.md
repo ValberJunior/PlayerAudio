@@ -16,6 +16,8 @@ Criei um player básico com 6 músicas de minha preferência, usando Javascript 
 
 ![arte](https://user-images.githubusercontent.com/84424883/124338248-27334b00-db7d-11eb-943e-5df454dfc4c4.png)
 
+## Netlify 👉👉https://myrockplaylist.netlify.app/
+
 ![arte2](https://user-images.githubusercontent.com/84424883/124338315-83966a80-db7d-11eb-976f-62cda62ff083.png)
 
 
@@ -29,7 +31,6 @@ Criei um player básico com 6 músicas de minha preferência, usando Javascript 
 - Edição final do projeto para visar responsividade.
 - Adição ao GitHub.
 
-## Netlify 👉👉https://myrockplaylist.netlify.app/
 
 Playlist
 
