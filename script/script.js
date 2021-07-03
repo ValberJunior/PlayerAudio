@@ -197,7 +197,7 @@ function changeMusic(){
 let total = audio.duration;
 let currentTime = audio.currentTime ;
 
-if (currentTime == total){
+if (currentTime == total && index < songs.length){
     nextSong();
 }
 }
